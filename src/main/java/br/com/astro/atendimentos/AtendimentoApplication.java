@@ -1,13 +1,13 @@
-package br.com.astro.pacientes;
+package br.com.astro.atendimentos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PacientesApplication {
+public class AtendimentoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PacientesApplication.class, args);
+        SpringApplication.run(AtendimentoApplication.class, args);
     }
 
 }
