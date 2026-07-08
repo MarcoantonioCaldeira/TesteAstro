@@ -2,7 +2,7 @@ package br.com.astro.atendimentos.dto.response;
 import br.com.astro.atendimentos.enums.Status;
 import java.time.LocalDateTime;
 
-public record AtendimentoResponse(
+public record AtendimentoResponseDTO(
     String id,
     String nomeDoPaciente,
     String nomeDoEspecialista,

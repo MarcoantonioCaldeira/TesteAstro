@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
-public record AtendimentoRequest(
+public record AtendimentoRequestDTO(
 
     @NotBlank(message = "O nome do paciente deve ser preenchido.")
     String nomeDoPaciente,
